@@ -1,0 +1,74 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>#63 Command Key</title>
+</head>
+
+<body>
+    <div class="container">
+    <div class="ls1"></div>
+    <div class="ls2"></div>
+    <div class="rs1"></div>
+    <div class="rs2"></div>
+    <div class="s"></div>
+</div>
+    <style>
+        body {
+            background: #191919;
+            width:300px;
+            height:400px;
+        }
+        .s {
+            position: absolute;
+            top: 117;
+            left: 168;
+            width: 47px;
+            height: 50px;
+            border: 9px solid #5DBCF9;
+            background: #191919;
+        }
+
+        .ls1,
+        .ls2,
+        .rs1,
+        .rs2 {
+            width: 50px;
+            height: 50px;
+            background: #191919;
+            position: absolute;
+        }
+
+        .ls1 {
+            border-radius: 100px 100px 0 100px;
+            box-shadow: 0 0 0 10px #5DBCF9;
+            top: 64;
+            left: 118;
+        }
+
+        .rs1 {
+            border-radius: 100px 0 100px 100px;
+            box-shadow: 0 0 0 10px #5DBCF9;
+            bottom: 64;
+            left: 118;
+        }
+
+        .rs2 {
+            border-radius: 100px 100px 100px 0px;
+            box-shadow: 0 0 0 10px #5DBCF9;
+            top: 64;
+            right: 118;
+        }
+
+        .ls2 {
+            border-radius: 0 100px 100px 100px;
+            box-shadow: 0 0 0 10px #5DBCF9;
+            bottom: 64;
+            right: 118;
+        }
+    </style>
+</body>
+
+</html>
